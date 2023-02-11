@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+        "http://www.w3.org/TR/html4/frameset.dtd">
+<HTML>
+<HEAD>
+    <link rel="stylesheet" href="style/main.css">
+    <TITLE>main</TITLE>
+</HEAD>
+
+
+<!--1-ий фрейм з гербом нау та меню-->
+<frameset border ="0" cols="300, *">
+    <frameset rows="11%,80%, *">
+        <frame src="img/nau.jpg" class = "nau">
+        <frame src = "menu.html" name="menu">
+    </frameset>
+    <!--2-ий фрейм з хедером та змістом-->
+    <frameset rows="105, 90%">
+        <frame src="header.html" name="header">
+        <frame src ="content.html" name="content">
+    </frameset>
+
+    <noframes>
+        <P>This frameset document contains:
+        <UL>
+            <LI><A href="contents_of_frame1.html">Some neat contents</A>
+            <LI><IMG src="contents_of_frame2.gif" alt="A neat image">
+            <LI><A href="contents_of_frame3.html">Some other neat contents</A>
+        </UL>
+    </noframes>
+</frameset>
+</HTML>
